@@ -1,0 +1,46 @@
+.header{
+    display: grid;
+    justify-items: flex;
+    justify-content: center;
+    background:linear-gradient(to right, black 5%,White 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+h2{
+    font-family:'Verdana', sans-serif;
+    color: black;
+}
+.card{
+    padding: 10px;
+    background-color:rgb(46, 46, 46);
+    border-radius: 10px;
+    display: grid;
+    justify-items:flex-start;
+    font-family:'Verdana', cursive;
+    color: white;
+}
+.displayResults{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1rem;
+}
+body{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/12380534/thumb/1.jpg");
+}
+b{
+    color: rgb(200, 255, 0);
+    font-family:'Broadway', sans-serif;
+}
+#btn{
+    font-family:'Verdana', sans-serif;
+    background-color:rgb(45, 94, 0);
+    border-radius: 1rem;
+    padding: 15px;
+    color: white;
+}
+#btn:hover{
+    color: lightgreen;
+    background-color:darkred;
+}
